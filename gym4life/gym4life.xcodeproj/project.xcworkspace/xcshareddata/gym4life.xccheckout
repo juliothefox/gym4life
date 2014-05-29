@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>63F4C373-9F06-4F1B-9D05-7F9D6FDC7931</string>
+	<key>IDESourceControlProjectName</key>
+	<string>gym4life</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E573E231-A036-4B15-96EC-453597B23762</key>
+		<string>https://github.com/BEPiDucb/gym4life.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>gym4life/gym4life.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E573E231-A036-4B15-96EC-453597B23762</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/BEPiDucb/gym4life.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E573E231-A036-4B15-96EC-453597B23762</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E573E231-A036-4B15-96EC-453597B23762</string>
+			<key>IDESourceControlWCCName</key>
+			<string>gym4life</string>
+		</dict>
+	</array>
+</dict>
+</plist>
