@@ -84,6 +84,11 @@
     [messageAlert show];
     
 }
-    
+
+//Método chamado quando o valor da Notificação é alterado
+-(IBAction)mudaNotificacao:(id)sender
+{
+    NSLog(@"Botao acionado");
+}
     
 @end
