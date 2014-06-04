@@ -7,6 +7,7 @@
 //
 
 #import "G4LViewPrincipal.h"
+#import "G4LViewSerie.h"
 
 @interface G4LViewPrincipal ()
 
@@ -77,11 +78,19 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     
-    //Mensagem para (encher o saco) teste
+    /*Mensagem para (encher o saco =3) teste
     UIAlertView *messageAlert = [[UIAlertView alloc]
                                  initWithTitle:@"Serie escolhida" message:[NSString stringWithFormat:@"Voce escolheu a Serie %d",(int)indexPath.item] delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
     
     [messageAlert show];
+     //Yay, sem mais alertas para encher o saco ˆˆ
+     */
+    
+    //Aloca a classe a ser mostrada
+    G4LViewSerie *view = [[G4LViewSerie alloc]initWithSerie:(int)indexPath.item andQtdExercicios:3];
+    
+    //Apresenta a xib da classe
+    [self presentViewController:view animated:YES completion:nil];
     
 }
 
