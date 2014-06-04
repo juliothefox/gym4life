@@ -90,5 +90,12 @@
 {
     NSLog(@"Botao acionado");
 }
+
+
+//Método chamado quando o botão de configuração é chamado
+-(IBAction)botaoConfigurar:(id)sender
+{
+    NSLog(@"Configuracao acionada");
+}
     
 @end
